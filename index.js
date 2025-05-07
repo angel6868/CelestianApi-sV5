@@ -4,8 +4,6 @@
     const path = require('path');
     const set = require('./settings');
     const chalk = require('chalk');
-    const apiKeyAuth = require('./lib/middleware/apiKeyAuth');
-app.use(apiKeyAuth);
     
     const app = express();
     const PORT = process.env.PORT || 4000;
