@@ -1,7 +1,7 @@
 module.exports = {
     name: {
         main: 'Celestian Api's!!',
-        copyright: 'Celestian Api's'
+        copyright: 'Celestian Api'
     },
     description: 'Integrated API solution for your modern application development needs. Fast, secure, and reliable access.',
     icon: '/image/icon.png',
