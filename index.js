@@ -22,6 +22,8 @@
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
     app.use('/', express.static(path.join(__dirname, 'docs')));
+    const apiKeyAuth = require('./lib/middleware/apiKeyAuth');
+    app.use(apiKeyAuth);
     
     logger.info('Starting server initialization...');
     
